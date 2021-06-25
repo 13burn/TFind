@@ -67,6 +67,8 @@ fastlane/test_output
 fastlane/readme.md
 
 #expo
-TFind/node-modules/
+TFind/node_modules/
 TFind/.expo-shared/
+Tfind/.expo/
 TFind/config.js
+.vscode/
