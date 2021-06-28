@@ -10,7 +10,7 @@ export default class yelp {
         this.searchterm = "tacos"
     }
     async request(latitude, longitude){
-        let url = "https://api.yelp.com/v3/businesses/search?term="+this.searchterm+"&latitude="+latitude+"&longitude="+longitude
+        let url = "https://api.yelp.com/v3/businesses/search?term="+this.searchterm+"&latitude="+latitude+"&longitude="+longitude+"&limit=50"
         let response = await fetch(url, {
             headers: this.header
         })
@@ -21,8 +21,8 @@ export default class yelp {
             data = false
           }
 
-        console.log("response:", response.ok)
-        console.log("data:", data)
+        console.log("response ok:", response.ok)
+        //console.log("data:", data)
         return data
     }
 }
