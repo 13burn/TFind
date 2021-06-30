@@ -8,7 +8,7 @@ import yelp from "./src/yelp"
 const spearmint = "rgb(69, 176, 140)"
 const ebony = "rgb(85, 93, 80)"
 const kelly_green = "rgb(76, 187, 23)"
-const mimosa = "#EDDEBA"
+const mimosa = "#EDDEBA" //rgb(237, 222, 186)
 
 
 export default function App() {
